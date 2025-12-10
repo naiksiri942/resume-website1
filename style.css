@@ -1,39 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
 
-    <header>
-        <h1>My Resume</h1>
-        <nav>
-            <a href="index.html">Bio-Data</a>
-            <a href="resume.html">Resume</a>
-        </nav>
-    </header>
+header {
+    background: #004a8f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-    <section class="resume-section">
-        <h2>Education</h2>
-        <ul>
-            <li>B.E in Computer Science – Ghousia institute of technology for women(2023–2027)</li>
-            <li>PUC – ISBR PU college(2023)</li>
-            <li>SSLC – S.K public school (2021)</li>
-        </ul>
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>GIT, LINUX</li>
-            <li>Java, Python</li>
-        </ul>
+nav a:hover {
+    text-decoration: underline;
+}
 
-        <h2>Experience</h2>
-        <p>As a fresher, I am gaining practical experience through academic projects, lab work, and self-learning, and I am eager to apply my skills in an internship.</p>
+.bio-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
 
-    </section>
-</body>
-</html>
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.bio-details {
+    max-width: 500px;
+}
+
+.resume-section {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #004a8f;
+}
+
